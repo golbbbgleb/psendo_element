@@ -1,0 +1,46 @@
+p::first-letter{
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+}
+p::first-line
+{
+    color: black;
+    font-size: 26px;
+}
+.my_title {
+    font-size: 20px;
+}
+.container{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.spais-betvin{
+    font-size: 40px;
+}
+.promo{
+    font-size: 30px;
+    color: black;
+}
+    li::first-letter { 
+        font-weight: 300;
+    }
+    li::before{
+        content: "(";
+        border: 1px solid black;
+    }
+    li::after{
+        content: ")";
+    }
+    .header_left{
+        display: flex;
+        justify-content: space-between;
+        gap: 90px;
+        align-items: center;
+        width: 510px;  }
+        .header_links{
+            width: 280px;
+            display: flex;
+            justify-content:space-between;
+        }
+   
